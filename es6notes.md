@@ -1,9 +1,3 @@
-#React
-
-state is isolated to the component that it's in 
-
-props are something that can be passed in 
-
 #ES6
 
 babeljs.io compiler to use es6 in browser
