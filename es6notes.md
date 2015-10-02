@@ -66,7 +66,7 @@ prior to es6
 function calcBmi(weight, height, max, callback) {
 	var bmi = weight / Math.pow(height, 2);
 	if (bmi > max) {
-		console.log('you're overweight');
+		console.log("you're overweight");
 	}
 	if (callback) {
 		callback(bmi);
@@ -85,7 +85,7 @@ Destructuring the arguments:
 function calcBmi({weight: w, height: h, max=25, callback}) {
 	var bmi = w / Math.pow(h, 2);
 	if (bmi > max) {
-		console.log('you're overweight');
+		console.log("you're overweight");
 	}
 	if (callback) {
 		callback(bmi);
